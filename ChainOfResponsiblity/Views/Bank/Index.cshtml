@@ -1,0 +1,17 @@
+﻿@model ChainOfResponsiblity.ChainOfResbonsiblity.Withdraw
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<h2>Banka Zincir Projesi</h2>
+<br />
+<div class="container">
+    <br />
+    <form method="post">
+        <label>Çekmek İstediğiniz Para Tutarı</label>
+        <input type="text" asp-for="Amount" class="form-control" />
+        <br />
+        <button class="btn btn-outline-warning">Para Çek</button>
+    </form>
+</div>
